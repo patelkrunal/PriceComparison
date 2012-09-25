@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <title>CronJob</title>
+</head>
+
+<body>
+<h3>Successfully updated all the prices</h3>
+<table>
+  <% i=0 %>
+  <% while i<@s_price_new.length %>
+    <tr>
+<td><%= @s_price_old[i]%></td>
+
+<td><%= @s_price_new[i]%></td>
+<td><%= @seller[i]%></td>
+<td><%= @change[i]%></td>
+</tr>
+    <% i=i+1 %>
+<% end %>
+
+
+<% @error_link.length.times do |i|%>
+<tr>
+   <td><a href=<%=@error_link[i] %>><%=@error_link[i] %></a></td>
+   <td><%=@error_type[i] %></td>
+</tr>
+<% end %>
+</table>
+</body>
+</html>

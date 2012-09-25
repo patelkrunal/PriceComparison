@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Seller</title>
+</head>
+
+<body>
+<form action="Seller" method="post">
+  <label>seller_name</label>
+  <input name="seller_name" id="seller_name" type="text"><br>
+  <label>description</label>
+  <input name="description" id="description" type="text"><br>
+  <label>delivery_time</label>
+  <input name="delivery_time" id="delivery_time" type="text"><br>
+  <label>logo_url</label>
+  <input name="logo_url" id="logo_url" type="text"><br>
+  <label>xpath_price</label>
+  <input name="xpath_price" id="xpath_price" type="text"><br>
+  <label>flag</label>
+  <input name="flag" id="flag" type="text"><br>
+  <label>base_url</label>
+  <input name="base_url" id="base_url" type="text"><br>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token%>" />
+  <input type="submit" value="submit">
+</form>
+
+
+</body>
+</html>

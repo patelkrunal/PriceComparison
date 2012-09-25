@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+
+ <table>
+    <% i=1 %>
+    <% while i<@seller_info.length%>
+  <tr>
+    <td><%= @model_name[i]%></td>
+ <td><%= @seller_info[i]%></td>
+ <td><%= @price_info[i]%></td>
+ <td><%= @delivery_time[i]%></td>
+ <td><%= @coupon%></td>
+ <td><%= @company%></td>
+ <td><a href=<%= @url[i]%>>link</a></td>
+ </tr>
+	<% i=i+1 %>
+  <% end %>
+ </table>
+ 
+</body>
+</html>
+
+
+ 

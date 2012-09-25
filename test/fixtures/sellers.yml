@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  seller_name: MyString
+  description: MyString
+  delivery_time: MyString
+  logo_url: MyString
+
+two:
+  seller_name: MyString
+  description: MyString
+  delivery_time: MyString
+  logo_url: MyString

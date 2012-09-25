@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+
+<form action="dfill" method="post">
+  <label>company:</label><input type="text" id="company" name="company"><br>
+  <label>link:</label><input type="text" id="link" name="link"><br>
+  <input type="submit" value="show">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token%>" />
+</form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/assets/jquery-ui-1.8.23.custom.css" >
+  <script type="text/javascript" src="/assets/jquery-1.8.1.min.js"></script>
+  <script type="text/javascript" src="/assets/jquery-ui-1.8.23.custom.min.js"></script>
+  <title>Find Best Price</title>
+  <script type="text/javascript">
+    $(function() {
+        $( "#tags" ).autocomplete({
+            source: 'autocomplete.json', 
+            minLength: 1
+        });
+    });
+  </script>
+</head>
+<body>
+
+<form action="result" method="get">
+<input type="text" id="tags" name="tags">
+<input type="submit" value="Search">
+</form>
+</body>
+</html>
+
