@@ -31,7 +31,10 @@ gem 'bootstrap-sass', '2.0.4'
 gem 'annotate', '2.5.0', group: :development
 gem 'bcrypt-ruby', '3.0.1'
 gem 'pg'
-gem 'taps'
+ group :development do
+  gem 'taps'
+  gem 'sqlite3'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
