@@ -5,7 +5,7 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+
 
 
 # Gems used only for assets and not required
@@ -28,13 +28,20 @@ end
 
 
 gem 'bootstrap-sass', '2.0.4'
-gem 'annotate', '2.5.0', group: :development
+gem 'annotate', '2.5.0'
 gem 'bcrypt-ruby', '3.0.1'
-gem 'pg'
- group :development do
-  gem 'taps'
-  gem 'sqlite3'
+
+gem 'sqlite3'
+ 
+ group :development, :test do
+   gem 'taps'
+  gem 'mysql2'
 end
+group :production do
+  gem 'pg'
+end
+
+gem 'heroku'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

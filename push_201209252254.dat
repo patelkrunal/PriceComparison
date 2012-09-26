@@ -1,0 +1,1 @@
+{"klass":"Taps::Push","database_url":"mysql2://root:jj@localhost/PriceComparison_development?encoding=utf8","remote_url":"http://heroku:osui59a24am79x@taps19.heroku.com","session_uri":"/sessions/2643330900","stream_state":{},"completed_tables":[],"table_filter":null,"local_tables_info":{"mobiles":2578,"schema_migrations":10,"sellers":22,"update_managers":1}}
