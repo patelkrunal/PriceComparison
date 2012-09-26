@@ -31,7 +31,7 @@ gem 'bootstrap-sass', '2.0.4'
 gem 'annotate', '2.5.0'
 gem 'bcrypt-ruby', '3.0.1'
 
-gem 'sqlite3'
+
  
  group :development, :test do
    gem 'taps'
