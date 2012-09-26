@@ -36,6 +36,7 @@ gem 'bcrypt-ruby', '3.0.1'
  group :development, :test do
    gem 'taps'
   gem 'mysql2'
+  #gem 'sqlite3'
 end
 group :production do
   gem 'pg'
